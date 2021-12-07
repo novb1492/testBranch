@@ -95,4 +95,4 @@ git stash drop
 -숨긴파일삭제  
 
 git stash pop  
--apply+list  
+-apply+list  2
