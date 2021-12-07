@@ -78,3 +78,21 @@ vscode가 알아서 해주고 있던것들이였다
 fast-foword  
 -별도의 커밋이 생성되지 않음  
 >>>>>>> exp
+
+병합완료  겁나신기하다  
+
+git stash save  
+-예를들어 master/branch가 공유중에 checkout을 master로 넘어가서  
+작업해야하는데 master가 영향을 받을때  사용  (감추기)  
+
+git stash apply  
+-감춘 파일 부활 명시적 삭제가 아닌이난 이명령어로 부활가능  
+
+git stash list  
+-감춘 파일 리스트  
+
+git stash drop  
+-숨긴파일삭제  
+
+git stash pop  
+-apply+list  
