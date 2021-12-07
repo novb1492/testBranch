@@ -23,6 +23,12 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+<<<<<<< HEAD
+=======
+깃 브랜치 테스트를 위해 만듬  
+브랜치임  
+
+>>>>>>> exp
 git  명령어  
 
 git init  
@@ -63,5 +69,12 @@ git merge 브랜치이름
 git branch -d 브랜치이름  
 -해당 브랜치 삭제  
 
+<<<<<<< HEAD
 vscode가 알아서 해주고 있던것들이였다  
 
+=======
+vscode가 알아서 해주고 있던것들이였다   
+
+fast-foword  
+-별도의 커밋이 생성되지 않음  
+>>>>>>> exp
