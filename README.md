@@ -57,4 +57,11 @@ git checkout 브랜치이름
 ex)f1,f2 두개중 f2는 branch에 있다면   
 checkout master시 f2는 사라지고 안보이게 된다 미쳤다  
 
+git merge 브랜치이름  
+-브랜치=>master로 병합  
+
+git branch -d 브랜치이름  
+-해당 브랜치 삭제  
+
 vscode가 알아서 해주고 있던것들이였다  
+
