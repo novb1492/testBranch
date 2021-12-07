@@ -28,8 +28,9 @@ git  명령어
 git init  
 -현재 위치에 저상송생성 .git(숨긴파일)  
 
-git log/ git log -p  
+git log/-p/ --branches --deconrate --graph  (--oneline)  
 -깃로그 보여줌 p가 붙으면 바뀐내용보여줌  
+브랜치별로 이름이붙어서 보임  
 
 git add 파일이름.파일형식  
 -스테이지 추가  (커밋직전)  
@@ -37,10 +38,10 @@ git add 파일이름.파일형식
 git commit -m"커밋메세지"  
 -commit시도     
 
-git diff/git diff commitid..commitid  
+git diff/git diff commitid..commitid or branch..branch  
 -add전 바뀐사항을 볼수있음 마지막 기회  
-add후에 스테이지에 올라가면 안보임   
-commtid..commitid가 붙으면 커밋후   
+add후에 스테이지에 올라가면 안보임     
+commtid..commitid가 붙으면 커밋후    
 그사이 변경사항이 무엇인지 나타내줌  
 
 git reset commitid --hard  
